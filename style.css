@@ -314,24 +314,73 @@ footer .cols .contact-col p{
 }
 
 .sub{
-    height: 500px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    gap: 80px;
+    padding: 50px 150px;
 }
 
 .sub img{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
 }
 
-.sub p.title{
-    font-size: 44px;
-    font-weight: 600;
+.sub .info h3{
     color: #669bbc;
-    margin-top: 8px;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.sub .info p{
+    color: #ccc;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.sub .info h4{
+    color: #ccc;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.sub .info h4 a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.sub .info h4 a:hover, .sub .info h5 a:hover{
+    color: #fff;
+}
+
+.sub .info h5 a{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 18px;
+}
+
+.sub .info img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.sub .info .skills-list p{
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.sub .info .skills-list p i{
+    margin-right: 5px;
+}
+
+.sub .info button{
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -462,6 +511,16 @@ footer .cols .contact-col p{
     }
 
     .about img{
+        width: 100px;
+        margin-bottom: -30px;
+    }
+
+    .sub{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sub img{
         width: 100px;
         margin-bottom: -30px;
     }
