@@ -21,7 +21,7 @@ body{
 }
 
 .navbar h2{
-    color: #ffb742;
+    color: #fdf0d5;
     font-weight: 600;
 }
 
@@ -35,14 +35,14 @@ body{
 
 .navbar ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #669bbc;
     font-size: 16px;
     margin-right: 25px;
     transition: color 0.3s ease;
 }
 
 .navbar ul li:hover a{
-    color: #ffb742;
+    color: #fdf0d5;
 }
 
 .navbar ul li:last-child a{
@@ -50,7 +50,7 @@ body{
 }
 
 .hire-button{
-    background: #ffb742;
+    background: #fdf0d5;
     padding: 6px 30px;
     border: none;
     font-size: 16px;
@@ -60,7 +60,7 @@ body{
 }
 
 .hire-button:hover{
-    background: #fb8c00;
+    background: #fde8bcff;
 }
 .main{
     height: 640px;
@@ -72,19 +72,19 @@ body{
 
 .main h4{
     font-size: 32px;
-    color: #fff;
+    color: #669bbc;
     font-weight: 600;
 }
 
 .main h4 span{
-    color: #ffb742;
+    color: #fdf0d5;
     text-decoration: underline;
 }
 
 .main p.title{
     font-size: 44px;
     font-weight: 600;
-    color: #fff;
+    color: #669bbc;
     margin-top: 8px;
 }
 
@@ -123,13 +123,13 @@ body{
 }
 
 .guarantee .item:hover{
-    border-color: #ffb742;
+    border-color: #fdf0d5;
 }
 
 .guarantee .item .icon{
     width: 46px;
     height: 46px;
-    background: #fff;
+    background: #31607e;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -138,7 +138,7 @@ body{
 }
 
 .guarantee .item:hover .icon{
-    background-color: #ffb742;
+    background-color: #fdf0d5;
 }
 
 .guarantee .item .icon i{
@@ -151,19 +151,19 @@ body{
 }
 
 .guarantee .item .info p{
-    color: #ffb742;
+    color: #fdf0d5;
     font-size: 20px;
     font-weight: 600;
 }
 
 .guarantee .item > i{
-    color: #fff;
+    color: #669bbc;
     font-size: 30px;
     transition: color 0.3s ease;
 }
 
 .guarantee .item:hover > i{
-    color: #ffb742;
+    color: #fdf0d5;
 }
 
 .seperator{
@@ -171,7 +171,7 @@ body{
     padding: 10px 20px;
     background: rgba(255, 255, 255, 0.08);
     display: inline-block;
-    color: #ffb742;
+    color: #fdf0d5;
     border-radius: 12px;
 }
 
@@ -189,7 +189,7 @@ body{
 }
 
 .about .info h3{
-    color: #fff;
+    color: #669bbc;
     font-size: 32px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -215,7 +215,7 @@ body{
 }
 
 .skills .left .info h3{
-    color: #fff;
+    color: #669bbc;
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -251,7 +251,7 @@ body{
 
 .skills .right .item i{
     font-size: 34px;
-    color: #fff;
+    color: #669bbc;
 }
 
 footer{
@@ -271,7 +271,7 @@ footer .cols .about-col{
 }
 
 footer .cols .about-col h3{
-    color: #ffb742;
+    color: #fdf0d5;
     margin-bottom: 20px;
 }
 
@@ -280,7 +280,7 @@ footer .cols .links-col{
 }
 
 footer .cols .links-col h4{
-    color: #fff;
+    color: #669bbc;
     margin-bottom: 20px;
 }
 
@@ -294,7 +294,7 @@ footer .cols .links-col a{
 }
 
 footer .cols .links-col a:hover{
-    color: #ffb742;
+    color: #fdf0d5;
 }
 
 footer .cols .contact-col{
@@ -302,7 +302,7 @@ footer .cols .contact-col{
 }
 
 footer .cols .contact-col h4{
-    color: #fff;
+    color: #669bbc;
     margin-bottom: 20px;
 }
 
@@ -311,6 +311,27 @@ footer .cols .contact-col p{
     color: #7b7b7b;
     font-size: 14px;
     line-height: 26px;
+}
+
+.sub{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.sub p.title{
+    font-size: 44px;
+    font-weight: 600;
+    color: #669bbc;
+    margin-top: 8px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -364,6 +385,12 @@ footer .cols .contact-col p{
     }
 }
 
+@media screen and (max-width: 900px) {
+    .main p.title{
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 780px) {
     .navbar button{
         display: none;
@@ -388,6 +415,12 @@ footer .cols .contact-col p{
     .about{
         flex-wrap: wrap;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main p.title{
+        font-size: 34px;
     }
 }
 
@@ -454,6 +487,12 @@ footer .cols .contact-col p{
 
     footer .cols .contact-col{
         flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .main p.title{
+        font-size: 25px;
     }
 }
 
